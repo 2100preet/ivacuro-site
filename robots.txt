@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://2100preet.github.io/nidaora-site/sitemap.xml
