@@ -3,7 +3,7 @@
 Static marketing site for **IvaCuro**, the all-in-one clinic management app for small clinics in India.
 Plain HTML/CSS with a little JavaScript (Hindi toggle, pricing switch, mailto demo form): no build step, no tracking.
 
-Live: https://2100preet.github.io/nidaora-site/
+Live: https://2100preet.github.io/ivacuro-site/
 
 * `index.html`: the whole page (SEO/OG tags, JSON-LD)
 * `assets/style.css`, `assets/site.js`
