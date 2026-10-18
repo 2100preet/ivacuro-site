@@ -8,7 +8,8 @@ img{max-width:100%;height:auto;display:block}a{color:var(--g7)}
 .hd{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
 .hd .wrap{display:flex;align-items:center;gap:16px;height:64px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.25rem;color:var(--ink);text-decoration:none}
-.logo img{width:34px;height:34px}
+.logo img{height:40px;width:auto;display:block}
+.ft-brand{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.ft-brand img{height:28px;width:auto;display:block}
 .nav{display:none;gap:22px;margin-left:auto}.nav a{color:var(--mut);text-decoration:none;font-weight:600;font-size:.95rem}.nav a:hover{color:var(--g7)}
 .hd-actions{display:flex;gap:8px;margin-left:auto;align-items:center}
 @media(min-width:900px){.nav{display:flex}.hd-actions{margin-left:16px}}
