@@ -1,6 +1,6 @@
-// Nidaora marketing site: Hindi toggle, monthly/yearly pricing, demo-request mailto. No tracking.
+// IvaCuro marketing site: Hindi toggle, monthly/yearly pricing, demo-request mailto. No tracking.
 (function () {
-  var EMAIL = "hello@nidaora.in"; // PLACEHOLDER contact address – update when the real inbox exists
+  var EMAIL = "hello@ivacuro.in"; // PLACEHOLDER contact address – update when the real inbox exists
   var inr = function (n) { return "₹" + Number(n).toLocaleString("en-IN"); };
 
   // ---- Language toggle (main headings + key text) ----
@@ -37,7 +37,7 @@
     e.preventDefault();
     var f = new FormData(e.target);
     var body = "Name: " + f.get("name") + "\nClinic & city: " + f.get("clinic") + "\nType: " + f.get("type") + "\nBest time to call: " + (f.get("time") || "-") + "\n";
-    location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Nidaora demo request – " + f.get("clinic")) + "&body=" + encodeURIComponent(body);
+    location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("IvaCuro demo request – " + f.get("clinic")) + "&body=" + encodeURIComponent(body);
   });
   document.getElementById("yr").textContent = new Date().getFullYear();
 })();
